@@ -17,13 +17,12 @@ public class L4xE1 {
         System.out.print("Enter your second name:");
         String secondName = input.nextLine();
         System.out.print("Enter the total value of your order: ");
-        String totalValueOfTheOrder = input.nextLine();
+        int totalValueOfTheOrder = input.nextInt();
+
         System.out.print("Enter amount you wish to pay as deposit:");
-        String amountOfDeposit = input.nextLine();
-        int deposit = 150;
-        if (deposit > 100) {
-            System.out.println("You get a free toaster!");
-        }
+        int amountOfDeposit = input.nextInt();
+
+        //int deposit = 150;
 
 
         System.out.println("== RECEIPT ==");
@@ -33,7 +32,10 @@ public class L4xE1 {
         System.out.println(secondName.substring(1,10).toLowerCase());
         System.out.println(totalValueOfTheOrder);
         System.out.println(amountOfDeposit);
-
+        System.out.println(totalValueOfTheOrder-amountOfDeposit);
+        if (amountOfDeposit > 100) {
+            System.out.println("You get a free toaster!");
+        }
 
         System.out.println("Have a nice day");
 
