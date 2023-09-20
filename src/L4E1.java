@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class L4xE1 {
+public class L4E1 {
     public static void main(String [] args){
         Scanner input = new Scanner(System.in);
 
@@ -17,13 +17,12 @@ public class L4xE1 {
         System.out.print("Enter your second name:");
         String secondName = input.nextLine();
         System.out.print("Enter the total value of your order: ");
-        String totalValueOfTheOrder = input.nextLine();
+        int totalValueOfTheOrder = input.nextInt();
+
         System.out.print("Enter amount you wish to pay as deposit:");
-        String amountOfDeposit = input.nextLine();
-        int deposit = 150;
-        if (deposit > 100) {
-            System.out.println("You get a free toaster!");
-        }
+        int amountOfDeposit = input.nextInt();
+
+        //int deposit = 150;
 
 
         System.out.println("== RECEIPT ==");
@@ -33,7 +32,10 @@ public class L4xE1 {
         System.out.println(secondName.substring(1,10).toLowerCase());
         System.out.println(totalValueOfTheOrder);
         System.out.println(amountOfDeposit);
-
+        System.out.println(totalValueOfTheOrder-amountOfDeposit);
+        if (amountOfDeposit > 100) {
+            System.out.println("You get a free toaster!");
+        }
 
         System.out.println("Have a nice day");
 
@@ -46,7 +48,24 @@ public class L4xE1 {
         //
         //	System.out.format("Total = £%.2f%n", (price * num));
 
-
+//System.out.println("Enter the name of item 1");
+//String item1name = Scanner.nextLine();
+//System.out.println("Enter the name of item 2");
+//String item2name = Scanner.nextLine();
+//System.out.println("Enter the name of item 3");
+//String item3name = Scanner.nextLine();
+//
+//System.out.println("Enter the price of item 1");
+//int item1price = Scanner.nextDouble();
+//System.out.println("Enter the price of item 2");
+//int item2price = Scanner.nextDouble();
+//System.out.println("Enter the price of item 3");
+//int item3price = Scanner.nextDouble();
+//
+//System.out.format("%s ......... £%.2f %n", item1name, item1price);
+//System.out.format("%s ......... £%.2f %n", item2name, item2price);
+//System.out.format("%s ......... £%.2f %n", item3name, item3price);
+//System.out.format("TOTAL ... £%.2f %n", (item1price+item2price+item3price) );
 
 
 
