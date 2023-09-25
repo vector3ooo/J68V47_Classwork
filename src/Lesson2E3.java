@@ -13,17 +13,17 @@ public class Lesson2E3 {
         System.out.println("Enter the name of item 1:");
         String apple= input.nextLine();
         System.out.println("Enter the price of item 1:");
-        int item1 = input.nextInt();
+        float item1 = input.nextInt();
         System.out.println("Enter the name of item 2:");
         String banana = input.nextLine();
         System.out.println("Enter the price of item 2:");
-        int item2 = input.nextInt();
+        float item2 = input.nextInt();
         System.out.println("Enter the name of item 3:");
         String carrot = input.nextLine();
         System.out.println("Enter the price of item 3:");
-        int item3 = input.nextInt();
-        System.out.format("SubTotal = £");
-        System.out.print(item1+item2+item3);
+        float item3 = input.nextInt();
+        System.out.format("SubTotal = %.2f%n£",(item1+item2+item3));
+
 
 
 
