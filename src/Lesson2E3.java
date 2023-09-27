@@ -14,6 +14,7 @@ public class Lesson2E3 {
         String apple= input.nextLine();
         System.out.println("Enter the price of item 1:");
         float item1 = input.nextInt();
+
         System.out.println("Enter the name of item 2:");
         String banana = input.nextLine();
         System.out.println("Enter the price of item 2:");

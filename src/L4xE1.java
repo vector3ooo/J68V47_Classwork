@@ -12,7 +12,7 @@ public class L4xE1 {
         // ● The remaining amount to be paid later● If they also received a free toasterYour program output should look similar to this
 
         System.out.println("(^_^) DEPOSIT PROGRAM (^_^)");
-        System.out.print("Enter your first name:");
+        System.out.println("Enter your first name:");
         String firstName = input.nextLine();
         System.out.print("Enter your second name:");
         String secondName = input.nextLine();

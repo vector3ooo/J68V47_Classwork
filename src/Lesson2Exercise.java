@@ -8,10 +8,10 @@ public class Lesson2Exercise {
         System.out.print("Lesson 2");
         String welcome = input.nextLine();
 
-        System.out.print("What is your name");
+        System.out.println("What is your name");
         String name = input.nextLine();
 
-        System.out.print("Could you tell me about your hobby");
+        System.out.println("Could you tell me about your hobby");
         String hobby = input.nextLine();
         System.out.println("I like programming and hard life with it when errors appear and must find out how to solve it");
 
