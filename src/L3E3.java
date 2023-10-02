@@ -37,7 +37,7 @@ public class L3E3 {
         System.out.println(surname.toLowerCase());
 
         System.out.println("Password");
-        System.out.print(surname.substring(0).toLowerCase());
+        System.out.print(surname.substring(0,1).toLowerCase());
         System.out.print(firstname.toUpperCase());
         System.out.print(yearofbirth);
 
