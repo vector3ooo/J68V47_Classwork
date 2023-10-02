@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 // Material Theme UI Lite - plugin do JetBrains tools
 
-public class Exercise_3_L3E3 {
+public class L3E3 {
     // public method
     // static so we can execute the main methods
     // void because it just runs (does not return anything
