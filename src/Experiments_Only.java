@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Experiments_Only {
     public static void setInput(String[] args ) {
-        Scanner input = new Scanner;
+
+        Scanner input = new Scanner(System.in);
 
         System.out.print("What is the answer to the sum 3 + 4? ");
 
