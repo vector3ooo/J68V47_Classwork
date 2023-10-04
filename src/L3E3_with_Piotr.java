@@ -6,7 +6,7 @@ import java.util.Scanner;
 // 4. construct username from 3 values
 // 5. construct password from 3 values
 
-public class Exercise_3_L3E3_with_Piotr {
+public class L3E3_with_Piotr {
 
     public static void main(String[] args) {
         // Something that we can pull user input data
