@@ -7,8 +7,15 @@ public class L4E2 {
 
         // variable ALWAYS named in lower case letters or pascalCase e.g. thisIsMyVariable
 
-        System.out.print("What is the capital of Spain(Start typing in with Cap letter: ");
+        System.out.print("What is the capital of Spain");
         String spainCapital = input.nextLine();
+
+        System.out.print("What is the answer to the sum 3 + 4? ");
+        int answer = input.nextInt();
+        if (answer == 7) {
+            System.out.println("Well done that is correct");
+        }
+
         ;
 
         // two things going on
