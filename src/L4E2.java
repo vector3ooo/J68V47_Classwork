@@ -8,66 +8,83 @@ public class L4E2 {
         // variable ALWAYS named in lower case letters or pascalCase e.g. thisIsMyVariable
 
         System.out.print("What is the capital of Spain");
-        String spainCapital = input.nextLine();
+        String spanishcapital = input.nextLine();
 
-        System.out.print("What is the answer to the sum 3 + 4? ");
-        int answer = input.nextInt();
-        if (answer == 7) {
-            System.out.println("Well done that is correct");
+        if (spanishcapital.equals("Madrid")){
+            System.out.println("Correct");
+        } else {
+            System.out.println("The correct answer is Madrid");
+        }
+        System.out.print("What is the capital of UK");
+        String ukcapital = input.nextLine();
+
+        if (ukcapital.equals("London")){
+            System.out.println("Correct");
+        } else {
+            System.out.println("The correct answer is London");
         }
 
-        ;
+        System.out.print("What is the capital of Italy");
+        String italiancapital = input.nextLine();
+
+        if (italiancapital.equals("Rome")){
+            System.out.println("Correct");
+        } else {
+            System.out.println("The correct answer is Rome");
+        }
+
+
 
         // two things going on
         // println - prints text into console
         // <string>.equals(<string>) - compares two strings. When match return true, else return false
         // basically equals() returns Boolean variable which always can have either TRUE or FALSE
-        System.out.println(spainCapital.equals("Madrid"));
+        //System.out.println(spainCapital.equals("Madrid"));
 
-        // do the string comparison
-        Boolean match = spainCapital.equals("Madrid");
-        // do something on each case
-        if (match = true) {
-            // when there is a match
-            System.out.println(true);
-            System.out.println("Well done that is correct");
-        } else {
-            // when there is not a match
-            System.out.println(false);
-            System.out.println("The answer is Madrid");
-        }
-
-
-        {System.out.println("What is the capital of UK: ");
-        String ukCapital = input.nextLine();
-
-        Boolean match2 = spainCapital.equals("London");
-        // do something on each case
-        if (match2 = true) {
-            // when there is a match
-            System.out.println(true);
-            System.out.println("Well done that is correct");
-        } else {
-            // when there is not a match
-            System.out.println(false);
-            System.out.println("The answer is London");
-        }
+   // // do the string comparison
+   // //Boolean match = spainCapital.equals("Madrid");
+   // // do something on each case
+   //// if (match = true) {
+   //     // when there is a match
+   //     System.out.println(true);
+   ////     System.out.println("Well done that is correct");
+   ////} else {
+   //     // when there is not a match
+   //     System.out.println(false);
+   //     System.out.println("The answer is Madrid");
+   // }
 
 
-        System.out.print("What is the capital of Italy: ");
-        String italyCapital = input.nextLine();
+   // {System.out.println("What is the capital of UK: ");
+   // String ukCapital = input.nextLine();
 
-        Boolean italyCapital1 = spainCapital.equals("Rome");
-            // do something on each case
-            if (italyCapital1 = true) {
-                // when there is a match
-                System.out.println(true);
-                System.out.println("Well done that is correct");
-            } else {
-                // when there is not a match
-                System.out.println(false);
-                System.out.println("The answer is Rome");
-    }
+    //   Boolean match2 = spainCapital.equals("London");
+    //   // do something on each case
+    //   if (match2 = true) {
+    //       // when there is a match
+    //       System.out.println(true);
+    //       System.out.println("Well done that is correct");
+    //   } else {
+    //       // when there is not a match
+    //       System.out.println(false);
+    //       System.out.println("The answer is London");
+    //   }
+
+
+    //   System.out.print("What is the capital of Italy: ");
+    //   String italyCapital = input.nextLine();
+
+    //   Boolean italyCapital1 = spainCapital.equals("Rome");
+    //       // do something on each case
+    //       if (italyCapital1 = true) {
+    //           // when there is a match
+    //           System.out.println(true);
+    //           System.out.println("Well done that is correct");
+    //       } else {
+    //           // when there is not a match
+    //           System.out.println(false);
+    //           System.out.println("The answer is Rome");
+    //
 
 
 
@@ -79,4 +96,4 @@ public class L4E2 {
     // and the computer displays True if it can match any of the text the user enters to the answer ''madrid''
     // and the computer dispaly False if it cannot match any of the text to the correct answer}
     // answer must look mADriD, lONDon, Rome}
-}   }  }
+}   } // }
