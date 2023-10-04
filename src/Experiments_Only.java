@@ -3,14 +3,20 @@ import java.util.Scanner;
 public class Experiments_Only {
     public static void main(String[] args ) {
 
+        //This section is to test various methology of writing code as well making understanding how it works
         Scanner input = new Scanner(System.in);
+        System.out.println("hello");
+        int age = 20;
+        int oldage = 40;
 
-        System.out.print("What is the answer to the sum 3 + 4? ");
+        int perimeter = 2*age + 2*oldage;
 
-        int answer = input.nextInt();
-        if (answer == 7) {
-            System.out.println("Well done that is correct");
-        }
+        perimeter = 2*(age+oldage);
+
+
+        System.out.println(perimeter);
+
+
 
 
 

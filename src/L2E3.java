@@ -23,5 +23,6 @@ public class L2E3 {
         int item3 = input.nextInt();
         System.out.format("SubTotal = £");
         System.out.print(item1 + item2 + item3);
+        System.out.println("She said \"Hello\" to me.");
     }
 }
