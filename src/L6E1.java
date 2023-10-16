@@ -7,7 +7,7 @@ public class L6E1 {
 
         int count = 10;
 
-        while(count==24)
+        while(count<=24)
 
         {
 

@@ -1,21 +1,22 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
-public class L6E2 {
-    public static void main(String[] args) {
-    }
+//public class L6E2 {
+    //public static void main(String[] args) {
 
-    {Scanner input = new Scanner(System.in);
+      //  Scanner input = new Scanner(System.in);
 
-    System.out.print("###____USER____PROGRAM____###");
+        //System.out.print("###____USER____PROGRAM____###");
+        //int option;
 
-    System.out.print("Choose the following options");}
+        //do {
+          //  System.out.print("Choose the following options 1-4");
+            //option = Scanner.nextLine();
+            //System.out.println("Option selected" + option);
+        //} while (option != 4);
 
 
 
-
-
-
-}
+    //}
 //Create a menu driven program that displays options to the user.
 //
 //Your program does not have to have the functionality for each option.
@@ -24,8 +25,9 @@ public class L6E2 {
 //
 //The options could be:
 //
-//Say “hello”
-//Tell me the time
-//Tell me a joke
-//Quit
+//1 Say “hello”
+//2 Tell me the time
+//3 Tell me a joke
+//4 Quit
 
+//}
