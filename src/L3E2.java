@@ -6,16 +6,13 @@ public class L3E2 {
         Scanner input = new Scanner(System.in);
         System.out.println("What is the capital of Spain: ");
         String spainCapital = input.nextLine();;
-        System.out.println(spainCapital.equals("Madrid"));
+        if (spainCapital.toLowerCase().equals("madrid")) {
 
-        Boolean match = spainCapital.equals("Madrid");
-        // do something on each case
-        if (match == true) {
-            // when there is a match
             System.out.println(true);
         } else {
             // when there is not a match
             System.out.println(false);
+            System.out.println("The answer is madrid");
         }
 
         System.out.print("What is the capital of UK: ");
