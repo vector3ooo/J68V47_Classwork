@@ -4,13 +4,16 @@ public class L4E3 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("How much would you like to deposit? ");
-        int deposit = input.nextInt();
-        if (deposit > 100) {
-            System.out.println("You get a free toaster!");
-        } else {
-            System.out.println("Enjoy your mug!");
+        System.out.print("Total purchase amount? ");
+        double total = input.nextInt();
+        double shippingCost = 0.0;
+        if (total < 100) {
+            shippingCost = 10.0;
         }
+        double ordertotal = total + shippingCost;
+        System.out.format("Shipping cost is: £%.2f %n", shippingCost);
+        System.out.format("Your final total is: £%.2f %n", ordertotal);
+
 
     }
 

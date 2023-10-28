@@ -14,25 +14,23 @@ public class L4E1 {
         System.out.println("(^_^) DEPOSIT PROGRAM (^_^)");
         System.out.println("Enter your first name:");
         String firstName = input.nextLine();
-        System.out.print("Enter your second name:");
+        System.out.println("Enter your second name:");
         String secondName = input.nextLine();
-        System.out.print("Enter the total value of your order: ");
-        int totalValueOfTheOrder = input.nextInt();
+        System.out.println("Enter the total value of your order: ");
+        float totalValueOfTheOrder = input.nextInt();
 
         System.out.print("Enter amount you wish to pay as deposit:");
-        int amountOfDeposit = input.nextInt();
+        float amountOfDeposit = input.nextInt();
 
         //int deposit = 150;
 
 
         System.out.println("== RECEIPT ==");
 
-        System.out.print(firstName.substring(0, 1).toUpperCase());
-        System.out.print(secondName.substring(0,1).toUpperCase());
-        System.out.println(secondName.substring(1,10).toLowerCase());
-        System.out.println(totalValueOfTheOrder);
-        System.out.println(amountOfDeposit);
-        System.out.println(totalValueOfTheOrder-amountOfDeposit);
+        System.out.format("Customer: %s %s %n",firstName.substring(0, 1).toUpperCase(),secondName);
+        System.out.format("Total Value Of The Order £%.2f %n",totalValueOfTheOrder);
+        System.out.format("Deposit Paid £%.2f %n",amountOfDeposit);
+        System.out.format("Remainder To Pay £%.2f %n",(totalValueOfTheOrder-amountOfDeposit));
         if (amountOfDeposit > 100) {
             System.out.println("You get a free toaster!");
         }
