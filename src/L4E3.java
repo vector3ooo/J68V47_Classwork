@@ -5,7 +5,7 @@ public class L4E3 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Total purchase amount? ");
-        double total = input.nextInt();
+        double total = input.nextDouble();
         double shippingCost = 0.0;
         if (total < 100) {
             shippingCost = 10.0;
