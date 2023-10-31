@@ -6,8 +6,9 @@ public class L5E2 {
         System.out.println("Enter a base number");
         int countX = input.nextInt();
 
-        for( int  count=1; count>=0; count++ )
+        for( int  count=10; count>0; count-- )
         {
-            System.out.format("%d",countX);
+            System.out.println(count);
+            System.out.println("Blastoff!!!!");
 
-    };    };}
+    }    }}
