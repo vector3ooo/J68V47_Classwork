@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class L5E1_Iteration_FOR {
-    public static void main(string[] args){
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a base number");
         int countX = input.nextInt();
