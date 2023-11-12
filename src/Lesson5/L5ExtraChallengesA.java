@@ -1,3 +1,5 @@
+package Lesson5;
+
 import java.util.Scanner;
 public class L5ExtraChallengesA {
     public static void main(String[] args){

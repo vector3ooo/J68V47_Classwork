@@ -1,3 +1,5 @@
+package experiments;
+
 import java.util.Scanner;
 
 public class Experiments_Only {
@@ -12,6 +14,7 @@ public class Experiments_Only {
         float j = input.nextFloat();
         System.out.println("Number of years for the loan");
         int n = input.nextInt();
+
 
         //float m = (l(j/(1-(1+j)^=n)));
         }

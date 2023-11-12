@@ -1,3 +1,5 @@
+package Lesson4;
+
 import java.util.Scanner;
 
 public class L4E2_Ian_Original_If_Method {

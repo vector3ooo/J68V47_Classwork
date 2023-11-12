@@ -1,3 +1,5 @@
+package Lesson5;
+
 import java.util.Scanner;
 public class L5E1_Iteration_FOR {
     public static void main(String[] args){
