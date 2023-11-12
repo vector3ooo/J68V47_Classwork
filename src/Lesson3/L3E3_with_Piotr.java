@@ -1,3 +1,5 @@
+package Lesson3;
+
 import java.util.Scanner;
 
 // 1. get first name

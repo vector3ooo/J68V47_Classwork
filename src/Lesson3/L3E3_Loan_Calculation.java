@@ -1,3 +1,5 @@
+package Lesson3;
+
 import java.util.Scanner;
 
 // we have to have a class because in java everything is a class and object

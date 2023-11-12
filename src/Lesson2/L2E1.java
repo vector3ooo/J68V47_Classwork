@@ -13,7 +13,7 @@ public class L2E1 {
 //        System.out.println(firstName);
 //
 //        firstName = "Mary";
-//        System.out.println(firstName);
+//        System.out.println(firstNaBame);
 //
 //    }
 

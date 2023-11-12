@@ -1,3 +1,5 @@
+package Lesson3;
+
 import java.util.Scanner;
 
 public class L3E2 {
