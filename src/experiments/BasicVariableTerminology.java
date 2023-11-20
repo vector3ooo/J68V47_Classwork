@@ -3,7 +3,7 @@ package experiments;
 public class BasicVariableTerminology {
     public static void main(String[] args) {
         String twojaStara = "tutaj jestem";
-        // [typ] [nazwaZmiennej] = [warto]
+        // [typ] [nazwaZmiennej] = [wartosc]
         // [type] [variableName] = [value]
 
         double wiek; // == double wiek = null/

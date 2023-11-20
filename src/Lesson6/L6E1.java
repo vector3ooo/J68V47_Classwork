@@ -1,3 +1,5 @@
+package Lesson6;
+
 import java.util.Scanner;
 
 public class L6E1 {
@@ -7,9 +9,7 @@ public class L6E1 {
 
         int count = 10;
 
-        while(count<=24)
-
-        {
+        while(count<=24){
 
             System.out.println(count);
             count +=2;
