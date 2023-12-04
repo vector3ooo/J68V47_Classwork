@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MenuProgram {
+public class experiments {
     static Scanner scanner = new Scanner(System.in);
 
     // Function to display the menu

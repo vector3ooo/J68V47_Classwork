@@ -1,4 +1,6 @@
-import javax.swing.*;
+
+
+
 import java.util.Scanner;
 
 public class L6E2_Do_While_loops {
@@ -16,8 +18,8 @@ public class L6E2_Do_While_loops {
         int quitX = 4;
         while(sayHellox == 1);
         }
-            System.out.print(sayHellox);
+
 
 
     }
-};
+}
