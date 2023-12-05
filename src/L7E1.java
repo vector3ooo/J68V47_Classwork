@@ -1,32 +1,54 @@
+import java.util.Scanner;
+
 public class L7E1 {
-    public static void printMessage(String Message){
-    System.out.println("Hello world"); // display “Hello world”
+    public static void showMenu(){
+        System.out.println("###____USER____PROGRAM____###");
+        System.out.println("1 = Say Hello");
+        System.out.println("2 = Tell me the time");
+        System.out.println("3 = Tell me a joke");
+        System.out.println("4 = Quit");
+        System.out.println("Choose option 1-4");
 }
+    public static void option1(){
+        System.out.println("Hello");
+    }
+    public static void option2(){
+        System.out.println("Tell me the time");
+    }
+    public static void option3() {
+        System.out.println("Tell me the joke");}
+
+
+
+    public static void getOption(){
+        Scanner input = new Scanner(System.in);
+        int option;
+        do{
+            showMenu();
+            option = input.nextInt();
+            System.out.format("Your choice is %d %n", option);
+            if (option == 1) {
+                option1();
+            } else if ((option == 2)) {
+                option2();
+            } else if ((option == 3)) {
+                option3();
+            } else if ((option == 4)) {
+                System.out.println("See you later");
+            } else {
+                System.out.println("This is not valid option");
+                System.out.println("Avalaible options: 1,2,3,4");
+            }
+        } while (option != 4);
+
+    }
+
+
+
+
     public static void main(String[] args) {
- //      printMessage("Hello World"); // call the printMessage subroutine
 
- //      {SET option variable to 0;
- //          DO
- //          {CALL showMenu;
- //      	     SET (option) TO VALUE RETURNED FROM CALL getOption;
- //      	     IF (option = 1) THEN {
- //          ;
- //          CALL option1;
- //      }ELSE {
- //              IF option = 2 THEN;
- //              CALL option2;
- //              ELSE IF option = 3 THEN;
- //              CALL option3;
- //              ELSE IF (option = 4)
- //              THEN;
- //              DISPLAY("Bye!");
- //              ELSE;
- //              DISPLAY "This isn't a valid option. Try a number between 1 and 4.”;
- //              END IF;
- //          }WHILE (option != 4);
- //      }
-
-
+        getOption();
 
 
     }
