@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Home10I10I2023 {
+public class ProjectExam {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

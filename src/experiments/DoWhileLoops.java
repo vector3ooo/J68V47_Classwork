@@ -1,6 +1,6 @@
 package experiments;
 
-public class DoWhileLoops {
+public class  DoWhileLoops {
     public static void main(String[] args) {
         int countDown = -50;
 
@@ -10,6 +10,15 @@ public class DoWhileLoops {
         } while (countDown > 0);
 
         System.out.println("start");
+
+
+//        do {
+//
+//        } while (1 < 2);
+//
+//        while (1 < 2) {
+//
+//        }
     }
 }
 
