@@ -42,3 +42,7 @@ public class FunctionsAndMethods {
         System.out.printf("Sprawdzmy to %d\n", option);
     }
 }
+
+
+// FETCH PULL ------ COMMIT PUSH
+// odwiez zaciagnij ------ zapisz wyslij
