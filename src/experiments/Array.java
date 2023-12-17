@@ -11,6 +11,14 @@ public class Array {
 
         arrayNext();
         ianExamples();
+        arrayAndLoop();
+    }
+    public static void arrayAndLoop() {
+        String[] names = {"Ryan","Paul","Gracjan","Marcus"};
+        for (int index = 0; index < names.length; index++ ) {
+            System.out.println(names[index]);
+
+        }
     }
 
     public static void ianExamples() {

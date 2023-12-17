@@ -62,7 +62,7 @@ public class L7E3 {
             }
             count++;
 
-        } while (count <= 5 && lives > 0);
+        } while (count <= 6 && lives > 0);
 
      gameOver(score,lives);
     }

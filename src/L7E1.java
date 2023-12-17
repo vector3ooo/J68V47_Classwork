@@ -16,7 +16,8 @@ public class L7E1 {
         System.out.println("Tell me the time");
     }
     public static void option3() {
-        System.out.println("Tell me the joke");}
+        System.out.println("Tell me the joke");
+    }
 
 
 

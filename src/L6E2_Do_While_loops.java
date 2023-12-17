@@ -31,4 +31,7 @@ public class L6E2_Do_While_loops {
         } while (option != 4);
 
     }
+    public static void experyment(String[] args){
+
+    }
 }
