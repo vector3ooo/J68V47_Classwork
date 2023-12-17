@@ -10,6 +10,7 @@ public class Array {
 
         System.out.println(cars[0]);
         arrayNext();
+        ianExamples();
 
     }
 
