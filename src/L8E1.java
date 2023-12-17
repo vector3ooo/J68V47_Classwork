@@ -1,5 +1,5 @@
 public class L8E1 {
-    public void main(string[] args){
+    public static void main(String[] args){
         String[] names = {"Ryan", "Paul", "Gracjan", "Marcus"};
         for (int index = 0; index < names.length; index++) {
             System.out.println( names[index] );

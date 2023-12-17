@@ -16,6 +16,23 @@ public class L7E3 {
 
     }
 
+    public static int wrongAnswer(int answer, int lives) {
+        System.out.println("Wrong! The answer is" + answer);
+        lives--;
+        System.out.println("You have" + lives + "lives left");
+        return lives;
+    }
+
+    public static void gameOver(int score, int lives) {
+        System.out.println("Game over. Your score is" + score);
+        if (lives > 0) {
+            System.out.println("Well done");
+        }
+        ;
+
+
+    }
+
     public static void main(String[] args) {
         int score = 0;
         int lives = 3;
@@ -37,16 +54,20 @@ public class L7E3 {
             answer = number1 + number2;
 
             if (answer == userAnswer) {
+                correctAnswer(score);
 //                score = correctAnswer();
+            } else if (answer == userAnswer) {
+                wrongAnswer(answer, lives);
+
             }
+            count++;
 
+        } while (count <= 5 && lives > 0);
 
-//            userAnswer = as
-
-
-        } while (count <= 10 && lives > 0);
+     gameOver(score,lives);
     }
-}
 
+
+}
 // && = AND
 // || = OR
