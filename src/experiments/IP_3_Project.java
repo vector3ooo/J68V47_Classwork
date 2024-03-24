@@ -1,3 +1,5 @@
+package experiments;
+
 import java.util.Scanner;
 
 public class IP_3_Project {
@@ -17,7 +19,6 @@ public class IP_3_Project {
 
             if (option == 1) {
                 System.out.println("Choose word");
-                System.out.println("Enter your age:   ");
                 System.out.println("1 = Bank");
                 System.out.println("2 = Restaurant");
                 System.out.println("3 = Police");
