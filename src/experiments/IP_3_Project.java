@@ -1,111 +1,114 @@
-package experiments;
-
-import java.util.Scanner;
-
-public class IP_3_Project {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int option;
-        do {
-            System.out.println("###____USER____PROGRAM____###");
-            System.out.println("1 = Polish");
-            System.out.println("2 = Spanish");
-            System.out.println("3 = Exit");
-            System.out.println("Choose option 1-3");
-
-            option = input.nextInt();
-            System.out.format("Your choice is %d %n", option);
-
-
-            if (option == 1) {
-                System.out.println("Choose word");
-                System.out.println("1 = Bank");
-                System.out.println("2 = Restaurant");
-                System.out.println("3 = Police");
-                System.out.println("4 = Hospital");
-
-                System.out.println("5 = Return");
-                System.out.println("6 = Exit");
-
-                int wordNumber = input.nextInt();
-
-                if (wordNumber == 1) {
-                    System.out.println("Bank  /bank/");
-                } else if (wordNumber == 2) {
-                    System.out.println("Restauracja  /restauracya/");
-
-                } else if (wordNumber >= 3) {
-                    System.out.println("Policja  /polEEcya/");
-
-                } else if (wordNumber >= 4) {
-                    System.out.println("Szpital  /shpEEtal/");
-
-
-                } else if (wordNumber != 5) {
-
-
-                } else if (wordNumber >= 6) {
-                    System.out.println();
-
-                } while (wordNumber != 6);
-
-                break;
-
-            } else if ((option == 2)) {
-
-
-                if (option == 2) {
-                    System.out.println("Choose word");;
-                    System.out.println("1 = Bank");
-                    System.out.println("2 = Restaurant");
-                    System.out.println("3 = Police");
-                    System.out.println("4 = Hospital");
-
-                    System.out.println("5 = Return");
-                    System.out.println("6 = Exit");
-
-                    int wordNumberS = input.nextInt();
-
-                    if (wordNumberS == 1) {
-                        System.out.println("Banco  /banko/");
-                    } else if (wordNumberS == 2) {
-                        System.out.println("Restaurante  /restaurante/");
-
-                    } else if (wordNumberS >= 3) {
-                        System.out.println("Policja  /polEEcEEya/");
-
-                    } else if (wordNumberS >= 4) {
-                        System.out.println("Hospital  /oshpEEtal/");
-
-
-                    } else if (wordNumberS != 5) {
-
-
-                    } else if (wordNumberS >= 6) {
-                        System.out.println();
-
-                    }
-                    while (wordNumberS != 6) ;
-
-                };
-
-
-
-            } else if ((option == 3)) {
-                System.out.println("See u la'ter");
-
-
-
-            } else {
-                System.out.println("No valid option");
-
-            }
-
-        } while (option == 4);
-        return;
-
-
-
-
-    }
-}
+//package experiments;
+//
+//import java.util.Scanner;
+//
+//public class IP_3_Project {
+//    public static void main(String[] args) {
+//        mainMenuLanguageChoice();
+//    }
+//
+//
+//    private static void mainMenuLanguageChoice() {
+//        int option;
+//
+//        do {
+//            System.out.println("###____USER____PROGRAM____###");
+//            System.out.println("Choose option 1-2, 0 will quit");
+//            System.out.format("%d Polish     \n", 1);
+//            System.out.format("%d Spanish    \n", 2);
+//            System.out.format("%d Exit       \n", 0);
+//
+//
+//            option = promptUserForOption();
+//
+//            if (option == 1) {
+//                polishMenu();
+//            } else if (option == 2) {
+//                spanishMenu();
+//            }
+//
+//        } while (option > 0);
+//
+//    private static void polishMenu() {
+//
+//        int option;
+//
+//        do {
+//            System.out.println();
+//            System.out.println("Choose word");
+//            System.out.format("%d Bank       \n", 1);
+//            System.out.format("%d Restaurant \n", 2);
+//            System.out.format("%d Police     \n", 3);
+//            System.out.format("%d Hospital   \n", 4);
+//
+//            System.out.format("%d Return     \n", 5);
+//            System.out.format("%d Exit       \n", 6);
+//
+//            option = promtUserForOption("Choose a word");
+//
+//            switch (option) {
+//                case 1:
+//                    System.out.println("Bank  /bank/");
+//                    break;
+//                case 2:
+//                    System.out.println("Restauracja  /restauracya/");
+//                    break;
+//                case 3:
+//                    System.out.println("Policja  /polEEcya/");
+//                    break;
+//                case 4:
+//                    System.out.println("Szpital  /shpEEtal/");
+//                    break;
+//                case 5:
+//                    System.out.println("Returned");
+//            }
+//        } while (option == 5);
+//    }
+//
+//    private static void spanishMenu() {
+//        int option;
+//
+//
+//        do {
+//            System.out.println("Choose word");
+//            System.out.format("%d Bank       \n", 1);
+//            System.out.format("%d Restaurant \n", 2);
+//            System.out.format("%d Police     \n", 3);
+//            System.out.format("%d Hospital   \n", 4);
+//
+//            System.out.format("%d Return     \n", 5);
+//            System.out.format("%d Exit       \n", 6);
+//
+//            option = promptUserForOption("Choose a word");
+//
+//            switch (option) {
+//                case 1:
+//                    System.out.println("Banco  /banko/");
+//                    break;
+//                case 2:
+//                    System.out.println("Restaurante  /restaurante/");
+//                    break;
+//                case 3:
+//                    System.out.println("Policja  /polEEcEEya/");
+//                    break;
+//                case 4:
+//                    System.out.println("Hospital  /oshpEEtal/");
+//                    break;
+//                case 5:
+//                    System.out.println("Returned");
+//            }
+//
+//        } while (option == 5);
+//
+//
+//    }
+//    private static int promptUserForOption() {
+//        Scanner input = new Scanner(System.in);
+//        return input.nextInt();
+//    }
+//    private static int promptUserForOption (String message){
+//        System.out.println(messege);
+//        return promptUserForOption();
+//    }
+//
+//}

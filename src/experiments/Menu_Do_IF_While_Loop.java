@@ -1,7 +1,7 @@
 package experiments;
 import java.util.Scanner;
 
-public class Menu_Example {public static void main(String[] args) {
+public class Menu_Do_IF_While_Loop {public static void main(String[] args) {
     mainManu();
 }
 
